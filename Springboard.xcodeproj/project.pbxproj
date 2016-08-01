@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D451FD1D4E543400C0D0B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D451FC1D4E543400C0D0B9 /* main.m */; };
+		C2D452001D4E543400C0D0B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D451FF1D4E543400C0D0B9 /* AppDelegate.m */; };
+		C2D452061D4E543400C0D0B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D452041D4E543400C0D0B9 /* Main.storyboard */; };
+		C2D452081D4E543400C0D0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D452071D4E543400C0D0B9 /* Assets.xcassets */; };
+		C2D4520B1D4E543400C0D0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D452091D4E543400C0D0B9 /* LaunchScreen.storyboard */; };
+		C2D452161D4E543400C0D0B9 /* SpringboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D452151D4E543400C0D0B9 /* SpringboardTests.m */; };
+		C2D452271D4E547200C0D0B9 /* OCTApp.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D452261D4E547200C0D0B9 /* OCTApp.m */; };
+		C2D4522A1D4EDCC800C0D0B9 /* OCTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D452291D4EDCC800C0D0B9 /* OCTHomeViewController.m */; };
+		C2D4522D1D4EDCDC00C0D0B9 /* OCTAppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4522C1D4EDCDC00C0D0B9 /* OCTAppCell.m */; };
+		C2E811851D4F517500FA3DE5 /* OCTAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D452231D4E546600C0D0B9 /* OCTAppManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2D452121D4E543400C0D0B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D451F01D4E543400C0D0B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D451F71D4E543400C0D0B9;
+			remoteInfo = Springboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2D451F81D4E543400C0D0B9 /* Springboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Springboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D451FC1D4E543400C0D0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2D451FE1D4E543400C0D0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2D451FF1D4E543400C0D0B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2D452051D4E543400C0D0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2D452071D4E543400C0D0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D4520A1D4E543400C0D0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2D4520C1D4E543400C0D0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D452111D4E543400C0D0B9 /* SpringboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D452151D4E543400C0D0B9 /* SpringboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringboardTests.m; sourceTree = "<group>"; };
+		C2D452171D4E543400C0D0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D452221D4E546600C0D0B9 /* OCTAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTAppManager.h; sourceTree = "<group>"; };
+		C2D452231D4E546600C0D0B9 /* OCTAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTAppManager.m; sourceTree = "<group>"; };
+		C2D452251D4E547200C0D0B9 /* OCTApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTApp.h; sourceTree = "<group>"; };
+		C2D452261D4E547200C0D0B9 /* OCTApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTApp.m; sourceTree = "<group>"; };
+		C2D452281D4EDCC800C0D0B9 /* OCTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTHomeViewController.h; sourceTree = "<group>"; };
+		C2D452291D4EDCC800C0D0B9 /* OCTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTHomeViewController.m; sourceTree = "<group>"; };
+		C2D4522B1D4EDCDC00C0D0B9 /* OCTAppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCTAppCell.h; path = ../OCTAppCell.h; sourceTree = "<group>"; };
+		C2D4522C1D4EDCDC00C0D0B9 /* OCTAppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCTAppCell.m; path = ../OCTAppCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D451F51D4E543400C0D0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D4520E1D4E543400C0D0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D451EF1D4E543400C0D0B9 = {
+			isa = PBXGroup;
+			children = (
+				C2D451FA1D4E543400C0D0B9 /* Springboard */,
+				C2D452141D4E543400C0D0B9 /* SpringboardTests */,
+				C2D451F91D4E543400C0D0B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D451F91D4E543400C0D0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D451F81D4E543400C0D0B9 /* Springboard.app */,
+				C2D452111D4E543400C0D0B9 /* SpringboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D451FA1D4E543400C0D0B9 /* Springboard */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8117D1D4F4EC700FA3DE5 /* Buniness Logic */,
+				C2D452201D4E543A00C0D0B9 /* Model */,
+				C2E8117F1D4F4EEB00FA3DE5 /* Resource */,
+				C2E811821D4F4F2400FA3DE5 /* Presenter */,
+				C2D451FB1D4E543400C0D0B9 /* Supporting Files */,
+			);
+			path = Springboard;
+			sourceTree = "<group>";
+		};
+		C2D451FB1D4E543400C0D0B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D451FE1D4E543400C0D0B9 /* AppDelegate.h */,
+				C2D451FF1D4E543400C0D0B9 /* AppDelegate.m */,
+				C2D451FC1D4E543400C0D0B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2D452141D4E543400C0D0B9 /* SpringboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D452151D4E543400C0D0B9 /* SpringboardTests.m */,
+				C2D452171D4E543400C0D0B9 /* Info.plist */,
+			);
+			path = SpringboardTests;
+			sourceTree = "<group>";
+		};
+		C2D452201D4E543A00C0D0B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8117E1D4F4EDE00FA3DE5 /* App */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C2D452211D4E544A00C0D0B9 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				C2D452221D4E546600C0D0B9 /* OCTAppManager.h */,
+				C2D452231D4E546600C0D0B9 /* OCTAppManager.m */,
+			);
+			name = AppManager;
+			sourceTree = "<group>";
+		};
+		C2E8117D1D4F4EC700FA3DE5 /* Buniness Logic */ = {
+			isa = PBXGroup;
+			children = (
+				C2D452211D4E544A00C0D0B9 /* AppManager */,
+			);
+			name = "Buniness Logic";
+			sourceTree = "<group>";
+		};
+		C2E8117E1D4F4EDE00FA3DE5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C2D452251D4E547200C0D0B9 /* OCTApp.h */,
+				C2D452261D4E547200C0D0B9 /* OCTApp.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		C2E8117F1D4F4EEB00FA3DE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C2D452071D4E543400C0D0B9 /* Assets.xcassets */,
+				C2D4520C1D4E543400C0D0B9 /* Info.plist */,
+				C2E811811D4F4F0300FA3DE5 /* Image */,
+				C2E811801D4F4EFB00FA3DE5 /* Storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		C2E811801D4F4EFB00FA3DE5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C2D452091D4E543400C0D0B9 /* LaunchScreen.storyboard */,
+				C2D452041D4E543400C0D0B9 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		C2E811811D4F4F0300FA3DE5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		C2E811821D4F4F2400FA3DE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C2E811831D4F4F3100FA3DE5 /* Home */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		C2E811831D4F4F3100FA3DE5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C2E811841D4F4F6100FA3DE5 /* Cell */,
+				C2D452281D4EDCC800C0D0B9 /* OCTHomeViewController.h */,
+				C2D452291D4EDCC800C0D0B9 /* OCTHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		C2E811841D4F4F6100FA3DE5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4522B1D4EDCDC00C0D0B9 /* OCTAppCell.h */,
+				C2D4522C1D4EDCDC00C0D0B9 /* OCTAppCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D451F71D4E543400C0D0B9 /* Springboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D4521A1D4E543400C0D0B9 /* Build configuration list for PBXNativeTarget "Springboard" */;
+			buildPhases = (
+				C2D451F41D4E543400C0D0B9 /* Sources */,
+				C2D451F51D4E543400C0D0B9 /* Frameworks */,
+				C2D451F61D4E543400C0D0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Springboard;
+			productName = Springboard;
+			productReference = C2D451F81D4E543400C0D0B9 /* Springboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2D452101D4E543400C0D0B9 /* SpringboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D4521D1D4E543400C0D0B9 /* Build configuration list for PBXNativeTarget "SpringboardTests" */;
+			buildPhases = (
+				D8E76530D1630C1E5817686C /* [CP] Check Pods Manifest.lock */,
+				C2D4520D1D4E543400C0D0B9 /* Sources */,
+				C2D4520E1D4E543400C0D0B9 /* Frameworks */,
+				C2D4520F1D4E543400C0D0B9 /* Resources */,
+				78635547C3E158424BC3507D /* [CP] Embed Pods Frameworks */,
+				769BFAC7923FC19CDA014938 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D452131D4E543400C0D0B9 /* PBXTargetDependency */,
+			);
+			name = SpringboardTests;
+			productName = SpringboardTests;
+			productReference = C2D452111D4E543400C0D0B9 /* SpringboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D451F01D4E543400C0D0B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Octree;
+				TargetAttributes = {
+					C2D451F71D4E543400C0D0B9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7A5GV3DH33;
+						DevelopmentTeamName = "Hongzhi Liu";
+					};
+					C2D452101D4E543400C0D0B9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C2D451F71D4E543400C0D0B9;
+					};
+				};
+			};
+			buildConfigurationList = C2D451F31D4E543400C0D0B9 /* Build configuration list for PBXProject "Springboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2D451EF1D4E543400C0D0B9;
+			productRefGroup = C2D451F91D4E543400C0D0B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D451F71D4E543400C0D0B9 /* Springboard */,
+				C2D452101D4E543400C0D0B9 /* SpringboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D451F61D4E543400C0D0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D4520B1D4E543400C0D0B9 /* LaunchScreen.storyboard in Resources */,
+				C2D452081D4E543400C0D0B9 /* Assets.xcassets in Resources */,
+				C2D452061D4E543400C0D0B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D4520F1D4E543400C0D0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		769BFAC7923FC19CDA014938 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpringboardTests/Pods-SpringboardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78635547C3E158424BC3507D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpringboardTests/Pods-SpringboardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E76530D1630C1E5817686C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D451F41D4E543400C0D0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D452001D4E543400C0D0B9 /* AppDelegate.m in Sources */,
+				C2D4522A1D4EDCC800C0D0B9 /* OCTHomeViewController.m in Sources */,
+				C2D451FD1D4E543400C0D0B9 /* main.m in Sources */,
+				C2D4522D1D4EDCDC00C0D0B9 /* OCTAppCell.m in Sources */,
+				C2E811851D4F517500FA3DE5 /* OCTAppManager.m in Sources */,
+				C2D452271D4E547200C0D0B9 /* OCTApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D4520D1D4E543400C0D0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D452161D4E543400C0D0B9 /* SpringboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2D452131D4E543400C0D0B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D451F71D4E543400C0D0B9 /* Springboard */;
+			targetProxy = C2D452121D4E543400C0D0B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2D452041D4E543400C0D0B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D452051D4E543400C0D0B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2D452091D4E543400C0D0B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D4520A1D4E543400C0D0B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D452181D4E543400C0D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2D452191D4E543400C0D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2D4521B1D4E543400C0D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Springboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.octree.Springboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2D4521C1D4E543400C0D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Springboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = me.octree.Springboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2D4521E1D4E543400C0D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpringboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.octree.SpringboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springboard.app/Springboard";
+			};
+			name = Debug;
+		};
+		C2D4521F1D4E543400C0D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpringboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.octree.SpringboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springboard.app/Springboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D451F31D4E543400C0D0B9 /* Build configuration list for PBXProject "Springboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D452181D4E543400C0D0B9 /* Debug */,
+				C2D452191D4E543400C0D0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D4521A1D4E543400C0D0B9 /* Build configuration list for PBXNativeTarget "Springboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D4521B1D4E543400C0D0B9 /* Debug */,
+				C2D4521C1D4E543400C0D0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D4521D1D4E543400C0D0B9 /* Build configuration list for PBXNativeTarget "SpringboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D4521E1D4E543400C0D0B9 /* Debug */,
+				C2D4521F1D4E543400C0D0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D451F01D4E543400C0D0B9 /* Project object */;
+}
