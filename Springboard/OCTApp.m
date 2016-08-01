@@ -21,7 +21,7 @@ id dynamicGetter(id self, SEL _cmd);
 
 @implementation OCTApp
 
-@dynamic ODRDiskUsage,applicationIdentifier,applicationType,dynamicDiskUsage,isBetaApp,isInstalled,isNewsstandApp,isPlaceholder,isRestricted,isWatchKitApp,itemID,itemName,minimumSystemVersion,sdkVersion,shortVersionString,sourceAppIdentifier,staticDiskUsage,teamID,bundleIdentifier;
+@dynamic ODRDiskUsage, applicationIdentifier, applicationType, dynamicDiskUsage, isBetaApp, isInstalled, isNewsstandApp, isPlaceholder, isRestricted, isWatchKitApp, itemID, itemName, minimumSystemVersion, sdkVersion, shortVersionString, sourceAppIdentifier, staticDiskUsage, teamID, bundleIdentifier;
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
