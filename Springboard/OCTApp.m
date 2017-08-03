@@ -43,9 +43,7 @@ id dynamicGetter(id self, SEL _cmd);
 + (BOOL) resolveInstanceMethod:(SEL)aSEL {
     
     Class cls = NSClassFromString(@"LSApplicationProxy");
-    id instance = [[cls alloc] init];
-    
-    if ([instance respondsToSelector:aSEL]) {
+    if ([cls instancesRespondToSelector:aSEL]) {
         class_addMethod([self class], aSEL, (IMP)dynamicGetter, "v@:f");
         return YES;
     }
